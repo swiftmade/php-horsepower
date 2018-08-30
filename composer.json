@@ -11,5 +11,18 @@
     "require": {
         "php": "^7.0",
         "ext-v8js": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swiftmade\\Horsepower\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
     }
 }
