@@ -1,0 +1,15 @@
+{
+    "name": "swiftmade/php-horsepower",
+    "description": "Easily run JS code in PHP via V8js extension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Ahmet Özışık",
+        "email": "ozisikahmet@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0",
+        "ext-v8js": "*"
+    }
+}
